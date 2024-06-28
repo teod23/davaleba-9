@@ -1,0 +1,53 @@
+
+.animation1 {
+    border: none;
+    height: 100px;
+    background-color: #C7F0C0;
+}
+
+.animation2 {
+    border: none;
+    height: 100px;
+    background-color: #5A4646;
+}
+
+.animation3 {
+    border: none;
+    height: 100px;
+    background-color: #95B8CC;
+
+}
+
+.animation4 {
+    border: none;
+    height: 100px;
+    background-color:#E9C1C1;
+}
+
+div {
+    animation: left-to-right 5s linear forwards;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+@keyframes left-to-right {
+0% {
+    width: 10%;
+    left: 0;
+}
+ 
+ 50% {
+    width:100%;
+    left: 0;
+}
+
+100% {
+    width: 15%;
+    left: 85%;
+}
+}
+
+
+
